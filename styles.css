@@ -1,0 +1,163 @@
+body {
+    background-color: #f0f0f0;
+}
+
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.page-title {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: black;
+}
+
+
+.page-subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: black;
+}
+
+
+
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+
+
+#content-input {
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-size: 16px;
+    transition: 0.2s all ease-in-out;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+#submit-btn {
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s all ease-in-out;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+#submit-btn:hover {
+    opacity: 70%;
+}
+
+
+
+
+#invalid-form-value {
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    color: red;
+    padding: 10px 0 0 0;
+
+}
+
+
+
+.task-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    min-width: 300px;
+    background-color: #c5c5c5;
+    border-radius: 10px;
+    margin: 0;
+    padding: 5px 15px;
+    margin: 0 30px;
+}
+
+
+
+
+.no-tasks-for-now {
+    text-align: center;
+    list-style: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+
+
+
+.each-task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+#remove-task-btn {
+    color: white;
+    background-color:red;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 0;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+
+
+
+#remove-task-btn:hover {
+    opacity: 70%;
+}
